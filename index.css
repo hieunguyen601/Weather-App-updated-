@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(131, 196, 202);
+    background-image: url(./Apple-Weather-app.webp);
+}
+    
+.weather {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-bottom: -10px;
+}
+    
+.date {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+.Houston {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    font-size: 50px;
+}
+    
+.New-York {
+    display: inline-block;
+    font-size: 25px;
+    float: right;
+    font-size: 50px;    
+}
+    
+.Da-Nang {
+    display: inline-block;
+    float: left;
+    font-size: 50px;
+    margin-top: 100px; 
+    margin-right: 300px;
+}
+    
+.Seoul {
+    display: inline-block;
+    float: right;
+    font-size: 50px;
+    margin-top: 100px; 
+    margin-left: 300px;
+}
+    
+img {
+    height: 300px;
+}
+
+@media (max-width: 414px) {
+    body {
+        background-color: rgb(131, 196, 202);
+        background-image: url(./Apple-Weather-app.webp);
+    }
+
+    .weather {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: -10px;
+    }
+
+    .date {
+        text-align: center;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    .Houston {
+        display: block;;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-right: 100px;
+    }
+
+    .New-York {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-right: 100px;
+    }
+
+    .Da-Nang {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-right: 100px;
+    }
+
+    .Seoul {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-right: 100px;
+    }
+}
